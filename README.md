@@ -9,6 +9,7 @@ I built those systems on a low-code platform. Now I'm moving to code-first full-
 
 ## Public
 
+- [mpesa-checkout-done-right](https://github.com/SoiCollins/mpesa-checkout-done-right): TypeScript and Node.js M-Pesa STK Push checkout that credits each order once, never trusts the browser and recovers lost callbacks. A failure simulator covers what the Daraja sandbox can't: cancelled prompts, wrong PINs, duplicate and late callbacks. Tests and CI.
 - [mpesa-statement-agent](https://github.com/SoiCollins/mpesa-statement-agent): Python, FastAPI and LangGraph over synthetic mobile-money statements. Rules categorise each transaction; the model only answers over checked data. Tests and CI.
 
 ## Elsewhere
